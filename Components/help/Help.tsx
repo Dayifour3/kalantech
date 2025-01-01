@@ -126,6 +126,15 @@ const Help = () => {
           </div>
         </div>
       </div>
+      <div className="">
+        <div className="flex flex-col">
+          <h4 className="text-btn text-sm font-bold">K-LEARN</h4>
+          <h2 className="text-5xl font-semibold">
+            Vous avez une compétence, Nous vous aidons a la monétiser
+          </h2>
+        </div>
+        <div className=""></div>
+      </div>
     </div>
   );
 };
