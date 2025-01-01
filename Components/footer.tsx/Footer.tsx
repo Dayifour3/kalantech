@@ -3,13 +3,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="pt-20 pb-10 text-white">
-      <div className="flex justify-between items-end flex-col md:w-full md:flex-row">
-        <h2 className="text-5xl font-bold">
+      <div className="flex justify-between items-center md:items-end flex-col md:w-full md:flex-row">
+        <h2 className="text-3xl flex md:text-5xl font-bold">
           Contactez-<span className="text-btn">Nous</span>
         </h2>
-        <div className="flex gap-3 items-center">
+        <div className="flex flex-col md:flex-row gap-3 items-center">
           <Image src="/logoslash.png" alt="logo" width={50} height={50} />
-          <h3 className="text-4xl font-bold text-btn w-[600px]">
+          <h3 className="text-2xl w-full md:pw-3 md:text-4xl font-bold text-btn md:w-[600px]">
             Nous vous accompagnons à chaque étape de votre parcours
             d'apprentissage.
           </h3>
@@ -17,7 +17,7 @@ const Footer = () => {
       </div>
       <div className="w-full h-[2px] bg-btn mt-4"></div>
 
-      <div className="mt-10 flex gap-10 justify-between mb-10">
+      <div className="mt-10 flex flex-col md:flex-row gap-10 justify-between mb-10">
         <div className="flex flex-col gap-6">
           <h4 className="text-xl font-semibold">Bamako</h4>
           <div className="flex flex-col gap-4">

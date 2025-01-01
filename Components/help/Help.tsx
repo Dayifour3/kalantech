@@ -140,13 +140,13 @@ const Help = () => {
             desc="Delivering On The Promise Of Digital Health And AI In Healthcare"
           />
           <PhotoCard
-            img="/photo1.png"
+            img="/photo2.png"
             date="12/12/2021"
             subject="Web"
             desc="Johnson Undoubtedly Took A Risk By Holding An Election In Winter While Brexit Was Still In Limbo"
           />
           <PhotoCard
-            img="/photo1.png"
+            img="/photo3.png"
             date="12/12/2021"
             subject="Web"
             desc="A community of solvers help organizations build trust and deliver sustained outcomes."
