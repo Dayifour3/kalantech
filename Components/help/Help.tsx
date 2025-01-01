@@ -1,5 +1,6 @@
 import Image from "next/image";
 import InfoCard from "../infocard/InfoCard";
+import PhotoCard from "../photocard/PhotoCard";
 
 const Help = () => {
   return (
@@ -126,14 +127,35 @@ const Help = () => {
           </div>
         </div>
       </div>
-      <div className="">
-        <div className="flex flex-col">
-          <h4 className="text-btn text-sm font-bold">K-LEARN</h4>
-          <h2 className="text-5xl font-semibold">
-            Vous avez une compétence, Nous vous aidons a la monétiser
-          </h2>
+      <div className="mt-20 flex flex-col gap-16">
+        <div className="flex flex-col justify-center items-center">
+          <h4 className="text-btn text-sm font-bold">© K-LEARN</h4>
+          <h2 className="text-5xl font-semibold">Kalan Event</h2>
         </div>
-        <div className=""></div>
+        <div className="flex flex-wrap items-stretch gap-5">
+          <PhotoCard
+            img="/photo1.png"
+            date="12/12/2021"
+            subject="Python"
+            desc="Delivering On The Promise Of Digital Health And AI In Healthcare"
+          />
+          <PhotoCard
+            img="/photo1.png"
+            date="12/12/2021"
+            subject="Web"
+            desc="Johnson Undoubtedly Took A Risk By Holding An Election In Winter While Brexit Was Still In Limbo"
+          />
+          <PhotoCard
+            img="/photo1.png"
+            date="12/12/2021"
+            subject="Web"
+            desc="A community of solvers help organizations build trust and deliver sustained outcomes."
+          />
+        </div>
+        <div className="mt-10 flex flex-col justify-center items-center">
+          <p className="text-btn cursor-pointer">Voir Plus</p>
+          <div className="w-[60px] h-[2px] bg-btn mt-2"></div>
+        </div>
       </div>
     </div>
   );
