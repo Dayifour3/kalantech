@@ -1,4 +1,5 @@
 import Activity from "@/Components/activity/Activity";
+import Help from "@/Components/help/Help";
 import Hero from "@/Components/hero/Hero";
 
 const page = () => {
@@ -6,6 +7,7 @@ const page = () => {
     <div className="text-white">
       <Hero />
       <Activity />
+      <Help />
     </div>
   );
 };
