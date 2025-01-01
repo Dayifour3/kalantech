@@ -1,3 +1,4 @@
+import Footer from "@/Components/footer.tsx/Footer";
 import Header from "@/Components/header/Header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -26,10 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased gradient_bg px-2 lg:px-12 xl:px-[200px] pt-4`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased gradient_bg px-2 lg:px-12 xl:px-[150px] pt-4`}
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
