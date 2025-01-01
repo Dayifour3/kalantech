@@ -3,29 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #171717;
+  --foreground: #fefefe;
+  --btn: #e0e420;
+  --text: #fefefe;
 }
 
 .gradient_bg {
   /* global 94%+ browsers support */
-  background: linear-gradient(
-    90deg,
-    rgba(11, 11, 4, 1) 0%,
-    rgba(250, 255, 0, 1) 50%,
-    rgba(80, 9, 9, 0.95) 100%
+  background: radial-gradient(
+    circle at 7% 30%,
+    rgba(0, 0, 0, 0.95) 12%,
+    rgba(137, 136, 51, 1) 29%,
+    rgba(0, 0, 0, 0.95) 42%,
+    rgba(89, 10, 10, 0.95) 93%
   );
 }
-
+.card_bg {
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 7% 30%,
+    rgba(101, 15, 43, 0.95) 11%,
+    rgba(0, 0, 0, 0.95) 30%,
+    rgba(101, 15, 43, 0.95) 71%
+  );
+}
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
