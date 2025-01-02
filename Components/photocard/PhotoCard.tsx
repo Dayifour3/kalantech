@@ -12,7 +12,7 @@ const PhotoCard = ({
   desc: string;
 }) => {
   return (
-    <div className="flex flex-col items-center w-[390px] h-[550px] card_bg rounded-3xl shadow-lg text-white gap-2">
+    <div className="flex flex-col items-center w-[390px] h-[550px] card_bg rounded-3xl shadow-lg text-white gap-2 transition-all ease-in-out">
       <div className="relative w-full h-[300px]">
         <Image src={img} alt="card" fill className="rounded-3xl" />
       </div>
@@ -22,7 +22,7 @@ const PhotoCard = ({
           <span className="">{subject}</span>
         </div>
         <p className="text-xl font-medium w-[250px] h-[100px]">{desc}</p>
-        <button className="text-black bg-btn p-3 w-[150px] rounded-full">
+        <button className="text-black bg-btn p-3 w-[150px] rounded-full hover:bg-transparent hover:text-btn">
           READ MORE
         </button>
       </div>
