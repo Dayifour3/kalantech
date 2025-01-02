@@ -4,12 +4,12 @@ const Footer = () => {
   return (
     <div className="pt-20 pb-10 text-white">
       <div className="flex justify-between items-center md:items-end flex-col md:w-full md:flex-row">
-        <h2 className="text-3xl flex md:text-5xl font-bold">
+        <h2 className="text-2xl sm:text-4xl flex md:text-5xl font-bold">
           Contactez-<span className="text-btn">Nous</span>
         </h2>
         <div className="flex flex-col md:flex-row gap-3 items-center">
           <Image src="/logoslash.png" alt="logo" width={50} height={50} />
-          <h3 className="text-2xl w-full md:pw-3 md:text-4xl font-bold text-btn md:w-[600px]">
+          <h3 className="text-2xl sm:text-3xl md:w-[380px] w-full md:pw-3 md:text-4xl font-bold text-btn lg:w-[600px]">
             Nous vous accompagnons à chaque étape de votre parcours
             d'apprentissage.
           </h3>
