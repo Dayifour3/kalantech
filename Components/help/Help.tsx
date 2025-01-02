@@ -26,10 +26,10 @@ const Help = () => {
       </div>
       <div className="flex flex-col items-center gap-5 justify-center pt-20">
         <h4 className="text-btn text-sm font-bold">© K-LEARN</h4>
-        <h2 className="text-5xl font-semibold w-[600px] text-center">
+        <h2 className="text-5xl font-semibold md:w-[600px] text-center">
           Nous vous offrons les compétences dont vous avez besoin
         </h2>
-        <p className="text-xl font-medium w-[600px] text-center">
+        <p className="text-xl font-medium md:w-[600px] text-center">
           Située au cœur de l'innovation, KalanTech se distingue par son offre
           de formations de haute qualité, adaptées aux besoins du marché en
           constante évolution.
@@ -97,7 +97,7 @@ const Help = () => {
       </div>
       <div className="flex flex-col items-center gap-5 justify-center pt-20">
         <h4 className="text-btn text-sm font-bold">© FEEDBACK</h4>
-        <h2 className="text-5xl font-semibold w-[600px] text-center">
+        <h2 className="text-5xl font-semibold md:w-[600px] text-center">
           Découvrez ce que nos <span className="text-btn">personnels</span>{" "}
           disent à propos de leur travail avec nous
         </h2>
